@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "Pilha.h"
 
-#define TAM_MAX 10
+#define TAM_MAX 500
 
 struct pilha {
 	int itens[TAM_MAX];
