@@ -27,9 +27,9 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=3
-CompilerSettings=0000000100000000001000000
-UnitCount=4
+CompilerSet=0
+CompilerSettings=0000000000000000001000000
+UnitCount=3
 
 [VersionInfo]
 Major=1
@@ -50,18 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=Hanoi.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
-FileName=Pilha.c
+FileName=Pilha.h
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=Pilha.h
+FileName=Principal.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -82,6 +72,16 @@ BuildCmd=
 
 [Unit4]
 FileName=Principal.c
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=Pilha.c
 CompileCpp=0
 Folder=
 Compile=1
